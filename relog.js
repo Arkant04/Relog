@@ -1,4 +1,15 @@
-function select(tag){
+function copiarHoraActual(texto) {   navigator.clipboard.writeText(texto)
+  .then(() => {
+    console.log("La hora ha sido copiada con exito: " + texto)
+      });
+     const reloj = document.querySelector("#reloj")
+    reloj.addEventListener('click', clicReloj);
+      function clicReloj() {
+   copiarHoraActual(updateHours());
+    }
+     }
+  
+  function select(tag){
     const val = document.querySelector(tag)
     return val
     
@@ -19,6 +30,7 @@ function select(tag){
   updateTag("#minutos", minuto)
   updateTag("#segundos", segundo)
     
+  copiarHoraActual(horaEnFormato24Horas);
     
   }
   
