@@ -1,1 +1,1 @@
-Mira un reloj -------> https://arkant04.neocities.org/Relog/Index
+[Mira un reloj -------> https://codepen.io/Arkant04/pen/eYxvqpK
